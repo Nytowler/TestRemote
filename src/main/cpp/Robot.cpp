@@ -10,6 +10,8 @@
 #include <frc/TimedRobot.h>
 #include <frc/drive/DifferentialDrive.h>
 
+#include "NewClass.h"
+
 /**
  * This is a demo program showing the use of the DifferentialDrive class.
  * Runs the motors with arcade steering.
@@ -19,6 +21,8 @@ class Robot : public frc::TimedRobot {
   frc::PWMVictorSPX m_rightMotor{1};
   frc::DifferentialDrive m_robotDrive{m_leftMotor, m_rightMotor};
   frc::Joystick m_stick{0};
+
+  NewClass dummyVariable();
 
  public:
   void TeleopPeriodic() {
