@@ -7,4 +7,7 @@
 
 #include "NewClass.h"
 
-NewClass::NewClass() {}
+NewClass::NewClass() {
+  //Adding some comment
+  //lines so that these two files are different
+}
