@@ -10,4 +10,6 @@
 NewClass::NewClass() {
   //Adding some comment
   //lines so that these two files are different
+  //Now modifying the master, too.
+  //Does it find a conflict?
 }
