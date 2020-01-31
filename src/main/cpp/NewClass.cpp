@@ -15,6 +15,10 @@ NewClass::NewClass() {
   //and make them different from the master
   //Now modifying the master, too.
   //Does it find a conflict?
+
   //Even more changes
+
+
+  //Another line added
 
 }
