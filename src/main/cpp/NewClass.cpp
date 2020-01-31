@@ -12,4 +12,5 @@ NewClass::NewClass() {
   //lines so that these two files are different
   //Now modifying the master, too.
   //Does it find a conflict?
+  //Another line added
 }
